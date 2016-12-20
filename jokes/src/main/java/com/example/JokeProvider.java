@@ -8,7 +8,7 @@ public class JokeProvider {
             "Programmer, a machine that turns coffe into code.",
             "Hardware, the part of a computer that you can kick.",
             "Unix is very friendly... It' just very particular about who its friends are.",
-            "CAPS LOCK – Preventing Login Since 1980.",
+            "CAPS LOCK, preventing Login Since 1980.",
             "What do you call a programmer from Finland? \n" +
                 "Nerdic.",
             "Programming is like sex:\n" +
