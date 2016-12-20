@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/gustavoballeste/AndroidStudioProjects/build-it-bigger/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="/Users/gustavoballeste/AndroidStudioProjects/build-it-bigger/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_515caff10e42bd8debea94bca4b72131b743418c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gustavoballeste/AndroidStudioProjects/build-it-bigger/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="ee5304fd374e0b4ebf6b42d4037fbfb2c5336511">
+        <dex dex="/Users/gustavoballeste/AndroidStudioProjects/build-it-bigger/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-clearcut-9.8.0_e4960438cc6bb2b6f48a943bc8e788ec483c3bf0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gustavoballeste/AndroidStudioProjects/build-it-bigger/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
+        <dex dex="/Users/gustavoballeste/AndroidStudioProjects/build-it-bigger/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.8.0_3fe2e50bc3809f7bd50588a28a4f9911153ba012/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gustavoballeste/AndroidStudioProjects/build-it-bigger/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="f2d240dd085626f03f759c41d628a0c8b63e491f">
+        <dex dex="/Users/gustavoballeste/AndroidStudioProjects/build-it-bigger/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-9.8.0_25689810e8b5ca5fed9c0ac5b117ddf26e132464/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gustavoballeste/AndroidStudioProjects/build-it-bigger/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="363a20f1d25336e827dd24020f2ecdc42d62638f">
+        <dex dex="/Users/gustavoballeste/AndroidStudioProjects/build-it-bigger/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gass-9.8.0_7b1bc2526a64dda2622b2bf193202b307a2986a7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gustavoballeste/AndroidStudioProjects/build-it-bigger/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
+        <dex dex="/Users/gustavoballeste/AndroidStudioProjects/build-it-bigger/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.8.0_14c820ee9b8691cfe2f79f4bdf13ba346610ad3b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gustavoballeste/AndroidStudioProjects/build-it-bigger/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="/Users/gustavoballeste/AndroidStudioProjects/build-it-bigger/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.0.0_d625331f537cfca37e5eb6790638eeabd1d33d9d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gustavoballeste/AndroidStudioProjects/build-it-bigger/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8b28f2bbd51ed9a2c3533bebeb03ac8b0f5d5250">
+        <dex dex="/Users/gustavoballeste/AndroidStudioProjects/build-it-bigger/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_82dd6015fd2b0dbb346617b007b36db2d5c1dc27/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gustavoballeste/AndroidStudioProjects/build-it-bigger/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7e92aadd0697922316d1395c1887a23aebec640a">
+        <dex dex="/Users/gustavoballeste/AndroidStudioProjects/build-it-bigger/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-9.8.0_9d59787296ebb75fcb90dad49db2a25103d5b59a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gustavoballeste/AndroidStudioProjects/build-it-bigger/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="/Users/gustavoballeste/AndroidStudioProjects/build-it-bigger/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_a78170c5f28f2c7e42aa9aedfb366f4cfc511069/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gustavoballeste/AndroidStudioProjects/build-it-bigger/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="/Users/gustavoballeste/AndroidStudioProjects/build-it-bigger/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.0_7d428045a0f34f7d9108b62ad4a0bce422b5dbad/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gustavoballeste/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="/Users/gustavoballeste/AndroidStudioProjects/build-it-bigger/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.0_806e78d70ab566116eed6dae5a19d34231c3cda0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gustavoballeste/AndroidStudioProjects/build-it-bigger/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="/Users/gustavoballeste/AndroidStudioProjects/build-it-bigger/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.0_8de84499ed6a1172c1c97e0ca426db235ce7b5b3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gustavoballeste/AndroidStudioProjects/build-it-bigger/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="/Users/gustavoballeste/AndroidStudioProjects/build-it-bigger/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.0_b123de4ea3986c9637acb3ebc98b5bde6c7c3cb7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gustavoballeste/AndroidStudioProjects/build-it-bigger/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="/Users/gustavoballeste/AndroidStudioProjects/build-it-bigger/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.0_350636194525597d9a88b7fc9dba88ddcb43d1b2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gustavoballeste/AndroidStudioProjects/build-it-bigger/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="/Users/gustavoballeste/AndroidStudioProjects/build-it-bigger/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_4efaabe04a318491c377e8b43dbc874cea98fe87/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gustavoballeste/AndroidStudioProjects/build-it-bigger/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="dda9dff2aada47bacaafb2d072eb62ca879ce485">
+        <dex dex="/Users/gustavoballeste/AndroidStudioProjects/build-it-bigger/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_759d5a0b0c17681cb2ec6cd747910b36eaef8a10/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gustavoballeste/AndroidStudioProjects/build-it-bigger/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="/Users/gustavoballeste/AndroidStudioProjects/build-it-bigger/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.0_fc08d5b7936b53afc3d85fb87fd620ec68b60919/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gustavoballeste/AndroidStudioProjects/build-it-bigger/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/gustavoballeste/AndroidStudioProjects/build-it-bigger/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.0_ddc5ac4e755eff7f5313baf22e43ce9ba46dfd88/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gustavoballeste/AndroidStudioProjects/build-it-bigger/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e9b2cfdfd59b03643f1e240668275378b96615a8">
+        <dex dex="/Users/gustavoballeste/AndroidStudioProjects/build-it-bigger/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-lite-9.8.0_6221ffef7deba0e20d61eba506217126265aae08/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gustavoballeste/AndroidStudioProjects/build-it-bigger/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="/Users/gustavoballeste/AndroidStudioProjects/build-it-bigger/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.0_654093d98421728e5dc522850ebf3745bae243fe/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gustavoballeste/AndroidStudioProjects/build-it-bigger/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="/Users/gustavoballeste/AndroidStudioProjects/build-it-bigger/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_330820a4bcaee4b2de7e35954622677983aa9267/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gustavoballeste/AndroidStudioProjects/build-it-bigger/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/gustavoballeste/AndroidStudioProjects/build-it-bigger/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_e419d2bfe6b3c4651b152a4ec6b2b983517609ce/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gustavoballeste/AndroidStudioProjects/build-it-bigger/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="/Users/gustavoballeste/AndroidStudioProjects/build-it-bigger/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.0_2ff7e78803ef38d80fea1901ccab79753cc14f74/classes.dex" />
+    </item>
+
+</items>
