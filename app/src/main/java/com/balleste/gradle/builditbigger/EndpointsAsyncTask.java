@@ -3,6 +3,7 @@ package com.balleste.gradle.builditbigger;
 import android.content.Context;
 import android.content.Intent;
 import android.os.AsyncTask;
+import android.util.Log;
 import android.util.Pair;
 import android.view.View;
 import android.widget.ProgressBar;
@@ -30,8 +31,9 @@ public class EndpointsAsyncTask extends AsyncTask<Pair<Context, String>, Void, S
 
     @Override
     protected String doInBackground(Pair<Context, String>... params) {
-
-        mSpinner.setVisibility(View.VISIBLE);
+        if (mSpinner != null) {
+            mSpinner.setVisibility(View.VISIBLE);
+        }
         if(myApiService == null) {  // Only do this once
 //            MyApi.Builder builder = new MyApi.Builder(AndroidHttp.newCompatibleTransport(),
 //                    new AndroidJsonFactory(), null)
@@ -63,15 +65,11 @@ public class EndpointsAsyncTask extends AsyncTask<Pair<Context, String>, Void, S
     @Override
     protected void onPostExecute(String result) {
         Intent intent = new Intent(mContext, JokeDisplayActivity.class);
-//        intent.setComponent(new ComponentName("com.balleste.android.displayjoke", "com.balleste.android.displayjoke.JokeDisplayActivity"));
-//        intent.setClassName("com.balleste.android.displayjoke", "JokeDisplayActivity");
-//        Log.e("mContext", mContext.getPackageName());
-//        Log.e("this.getClass().getName()",this.getClass().getName());
         intent.putExtra(JokeDisplayActivity.EXTRA_JOKE,result);
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         mContext.startActivity(intent);
-        mSpinner.setVisibility(View.GONE);
-//  Está funcionando, mas o teste não passa. Ver sobre Activity sendo criada por módulo diferente.
+        if (mSpinner != null) {
+            mSpinner.setVisibility(View.GONE);
+        }
     }
-
 }

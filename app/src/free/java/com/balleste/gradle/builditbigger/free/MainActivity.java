@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void requestNewInterstitial() {
         AdRequest adRequest = new AdRequest.Builder()
-                .addTestDevice("351874082984132")
+                .addTestDevice("USE_HERE_THE_DEVICE_ID")
                 .build();
 
         mInterstitialAd.loadAd(adRequest);
