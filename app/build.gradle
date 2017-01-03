@@ -1,11 +1,18 @@
 apply plugin: 'com.android.application'
 
 android {
+    signingConfigs {
+        config {
+            keyAlias 'udacity'
+            keyPassword 'KEY_PASSWORD'
+            storeFile file('/Users/gustavoballeste/AndroidStudioProjects/buildItBigger/keystore.jks')
+            storePassword 'STORE_PASWORD'
+        }
+    }
     compileSdkVersion 25
     buildToolsVersion "24.0.3"
-
     defaultConfig {
-        applicationId "com.udacity.gradle.builditbigger"
+        applicationId "com.balleste.gradle.builditbigger"
         minSdkVersion 16
         targetSdkVersion 25
         versionCode 1
@@ -16,19 +23,29 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+        }
+    }
+    productFlavors {
+        free {
+            applicationId "com.balleste.gradle.builditbigger.free"
+        }
+        paid {
+            applicationId "com.balleste.gradle.builditbigger.paid"
         }
     }
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile fileTree(include: ['*.jar'], dir: 'libs')
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile project(':jokes')
     compile project(':displayjoke')
-    compile 'com.android.support:appcompat-v7:25.1.0'
-    compile 'com.google.android.gms:play-services-ads:10.0.1'
-    compile 'com.google.code.findbugs:jsr305:2.0.1'
     compile project(path: ':backend', configuration: 'android-endpoints')
+    compile 'com.android.support:appcompat-v7:25.1.0'
+    compile 'com.google.code.findbugs:jsr305:2.0.1'
+    compile 'com.android.support:support-v4:25.1.0'
+    freeCompile 'com.google.android.gms:play-services-ads:10.0.1'
 }

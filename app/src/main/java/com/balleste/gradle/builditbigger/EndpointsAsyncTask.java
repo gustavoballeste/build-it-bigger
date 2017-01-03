@@ -2,6 +2,7 @@ package com.balleste.gradle.builditbigger;
 
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.AsyncTask;
 import android.util.Pair;
 
@@ -12,15 +13,17 @@ import com.google.api.client.extensions.android.json.AndroidJsonFactory;
 
 import java.io.IOException;
 
-import static android.support.v4.content.ContextCompat.startActivity;
-
 /**
  * Created by gustavoballeste on 20/12/16.
  */
 
 public class EndpointsAsyncTask extends AsyncTask<Pair<Context, String>, Void, String> {
     private static MyApi myApiService = null;
-    private Context context;
+    private Context mContext;
+
+    public EndpointsAsyncTask(Context context) {
+        this.mContext = context;
+    }
 
     @Override
     protected String doInBackground(Pair<Context, String>... params) {
@@ -45,11 +48,8 @@ public class EndpointsAsyncTask extends AsyncTask<Pair<Context, String>, Void, S
             myApiService = builder.build();
         }
 
-        context = params[0].first;
-        String name = params[0].second;
-
         try {
-            return myApiService.sayHi(name).execute().getData();
+            return myApiService.sayAJoke().execute().getData();
         } catch (IOException e) {
             return e.getMessage();
         }
@@ -57,6 +57,14 @@ public class EndpointsAsyncTask extends AsyncTask<Pair<Context, String>, Void, S
 
     @Override
     protected void onPostExecute(String result) {
-        startActivity(context, JokeDisplayActivity.getDisplayActivityIntent(context, result), null);
+        Intent intent = new Intent(mContext, JokeDisplayActivity.class);
+//        intent.setComponent(new ComponentName("com.balleste.android.displayjoke", "com.balleste.android.displayjoke.JokeDisplayActivity"));
+//        intent.setClassName("com.balleste.android.displayjoke", "JokeDisplayActivity");
+//        Log.e("mContext", mContext.getPackageName());
+//        Log.e("this.getClass().getName()",this.getClass().getName());
+        intent.putExtra(JokeDisplayActivity.EXTRA_JOKE,result);
+        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        mContext.startActivity(intent);
+//  Está funcionando, mas o teste não passa. Ver sobre Activity sendo criada por módulo diferente.
     }
 }
