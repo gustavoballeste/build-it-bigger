@@ -130,7 +130,7 @@ To tie it all together, create a Gradle task that:
 
 * App retrieves jokes from Google Cloud Endpoints module and displays them via an Activity from the Android Library.
 
-### Optional Components
+### Optional Components (Implemented)
 
 Once you have a functioning project, consider adding more features to test your Gradle and Android skills. Here are a few suggestions:
 
