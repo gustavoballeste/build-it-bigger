@@ -1,6 +1,5 @@
 package com.balleste.gradle.builditbigger;
 
-
 import android.content.Context;
 import android.content.Intent;
 import android.os.AsyncTask;
@@ -67,4 +66,5 @@ public class EndpointsAsyncTask extends AsyncTask<Pair<Context, String>, Void, S
         mContext.startActivity(intent);
 //  Está funcionando, mas o teste não passa. Ver sobre Activity sendo criada por módulo diferente.
     }
+
 }

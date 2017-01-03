@@ -6,7 +6,7 @@ android {
             keyAlias 'udacity'
             keyPassword 'KEY_PASSWORD'
             storeFile file('/Users/gustavoballeste/AndroidStudioProjects/buildItBigger/keystore.jks')
-            storePassword 'STORE_PASWORD'
+            storePassword 'STORE_PASSWORD'
         }
     }
     compileSdkVersion 25

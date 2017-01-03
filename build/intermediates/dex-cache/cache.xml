@@ -12,6 +12,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/gustavoballeste/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.1/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="516c03b21d50a644d538de0f0369c620989cd8f0">
+        <dex dex="/Users/gustavoballeste/AndroidStudioProjects/buildItBigger/app/build/intermediates/pre-dexed/free/release/jsr305-2.0.1_4c306410a7c956fffbbf638edb737c63139d0954.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/gustavoballeste/AndroidStudioProjects/buildItBigger/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -27,15 +36,6 @@
         revision="24.0.3"
         sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
         <dex dex="/Users/gustavoballeste/AndroidStudioProjects/buildItBigger/app/build/intermediates/pre-dexed/free/release/com.android.support-animated-vector-drawable-25.1.0_be307e2bd65027e56d66a814bfba187dfd20c11c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/gustavoballeste/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.1/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="516c03b21d50a644d538de0f0369c620989cd8f0">
-        <dex dex="/Users/gustavoballeste/AndroidStudioProjects/buildItBigger/app/build/intermediates/pre-dexed/free/release/jsr305-2.0.1_4c306410a7c956fffbbf638edb737c63139d0954.jar" />
     </item>
     <item
         is-multidex="false"
@@ -79,7 +79,7 @@
         jumboMode="false"
         optimize="true"
         revision="24.0.3"
-        sha1="81b3c3e90e8c0a2a0ac0b95b5ba90bb57b599ac6">
+        sha1="414ef47ec8b42ad256d2db6905bd61248fa11cc9">
         <dex dex="/Users/gustavoballeste/AndroidStudioProjects/buildItBigger/app/build/intermediates/pre-dexed/free/release/jokes_c6efebb35c0e79fe6f1306aa7d5bc878be7fc63e.jar" />
     </item>
     <item
@@ -106,17 +106,8 @@
         jumboMode="false"
         optimize="true"
         revision="24.0.3"
-        sha1="a798d92af9fee0a4695323005d507e03a434ef25">
+        sha1="9f5246f8f1a5456fb8de1b62d4592a71ca230432">
         <dex dex="/Users/gustavoballeste/AndroidStudioProjects/buildItBigger/app/build/intermediates/pre-dexed/free/release/backend-android-endpoints_46917345fe08bd917b2db5855a67c4e05b4c0954.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/gustavoballeste/AndroidStudioProjects/buildItBigger/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="d0460bf07cc3657e0be518ca01c174493951c6b8">
-        <dex dex="/Users/gustavoballeste/AndroidStudioProjects/buildItBigger/app/build/intermediates/pre-dexed/free/release/com.google.android.gms-play-services-ads-10.0.1_684b5ee79b90cb3b915169b4fdbd5264c3612017.jar" />
     </item>
     <item
         is-multidex="false"
@@ -135,6 +126,15 @@
         revision="24.0.3"
         sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
         <dex dex="/Users/gustavoballeste/AndroidStudioProjects/buildItBigger/app/build/intermediates/pre-dexed/free/release/com.android.support-support-compat-25.1.0_f0aa5821bc909923b30c9d25ae95feeb66f167ae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gustavoballeste/AndroidStudioProjects/buildItBigger/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d0460bf07cc3657e0be518ca01c174493951c6b8">
+        <dex dex="/Users/gustavoballeste/AndroidStudioProjects/buildItBigger/app/build/intermediates/pre-dexed/free/release/com.google.android.gms-play-services-ads-10.0.1_684b5ee79b90cb3b915169b4fdbd5264c3612017.jar" />
     </item>
     <item
         is-multidex="false"

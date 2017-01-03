@@ -43,3 +43,5 @@ public class MainActivity extends AppCompatActivity {
         }
 
 }
+//device id1 = 351874082984132
+//device id2 = 351874082984140
