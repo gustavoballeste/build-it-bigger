@@ -5,13 +5,19 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ProgressBar;
 
 public class MainActivity extends AppCompatActivity {
+
+    private ProgressBar mSpinner;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        mSpinner = (ProgressBar)findViewById(R.id.progressBar1);
+        mSpinner.setVisibility(View.GONE);
 
     }
 
@@ -38,10 +44,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void tellJoke(View view) {
-//        new EndpointsAsyncTask().execute(new Pair<Context, String>(this, "Manfred"));
-        new EndpointsAsyncTask(this).execute();
+        mSpinner.setVisibility(View.VISIBLE);
+        new EndpointsAsyncTask(this, mSpinner).execute();
         }
 
 }
-//device id1 = 351874082984132
-//device id2 = 351874082984140

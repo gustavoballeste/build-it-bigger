@@ -6,6 +6,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ProgressBar;
 
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
@@ -16,10 +17,15 @@ public class MainActivity extends AppCompatActivity {
     InterstitialAd mInterstitialAd;
     Button mTellJokeButton;
 
+    private ProgressBar mSpinner;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        mSpinner = (ProgressBar)findViewById(R.id.progressBar1);
+        mSpinner.setVisibility(View.GONE);
 
         mTellJokeButton = (Button) findViewById(R.id.tell_joke_button);
 
@@ -80,10 +86,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void tellJoke() {
-//        new EndpointsAsyncTask().execute(new Pair<Context, String>(this, "Manfred"));
-        new EndpointsAsyncTask(this).execute();
+
+        mSpinner.setVisibility(View.VISIBLE);
+        new EndpointsAsyncTask(this, mSpinner).execute();
         }
 
 }
-//device id1 = 351874082984132
-//device id2 = 351874082984140

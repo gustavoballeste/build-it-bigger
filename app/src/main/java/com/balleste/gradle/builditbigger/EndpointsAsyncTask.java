@@ -4,6 +4,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.util.Pair;
+import android.view.View;
+import android.widget.ProgressBar;
 
 import com.balleste.android.displayjoke.JokeDisplayActivity;
 import com.balleste.builditbigger.backend.myApi.MyApi;
@@ -19,13 +21,17 @@ import java.io.IOException;
 public class EndpointsAsyncTask extends AsyncTask<Pair<Context, String>, Void, String> {
     private static MyApi myApiService = null;
     private Context mContext;
+    private ProgressBar mSpinner;
 
-    public EndpointsAsyncTask(Context context) {
+    public EndpointsAsyncTask(Context context, ProgressBar progressBar) {
         this.mContext = context;
+        mSpinner = progressBar;
     }
 
     @Override
     protected String doInBackground(Pair<Context, String>... params) {
+
+        mSpinner.setVisibility(View.VISIBLE);
         if(myApiService == null) {  // Only do this once
 //            MyApi.Builder builder = new MyApi.Builder(AndroidHttp.newCompatibleTransport(),
 //                    new AndroidJsonFactory(), null)
@@ -64,6 +70,7 @@ public class EndpointsAsyncTask extends AsyncTask<Pair<Context, String>, Void, S
         intent.putExtra(JokeDisplayActivity.EXTRA_JOKE,result);
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         mContext.startActivity(intent);
+        mSpinner.setVisibility(View.GONE);
 //  Está funcionando, mas o teste não passa. Ver sobre Activity sendo criada por módulo diferente.
     }
 
